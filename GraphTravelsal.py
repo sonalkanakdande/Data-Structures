@@ -36,6 +36,7 @@ def dijkstra(start_node, end_node):
 
     return shortest_path_to_node[end_node]
 
+
 class Graph(object):
     def __init__(self, node_list):
         self.nodes = node_list
